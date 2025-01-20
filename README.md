@@ -64,6 +64,10 @@ API=https://your-rancher-ip yarn dev
 API=https://192.168.1.123 yarn dev
 ```
 
+### Air-gapped Environment
+
+See our [guide](docs/air-gapped-environment.md) on how use Harvester UI extension in air-gapped environments.
+
 ## Contributing
 
 For developers, after reading through the introduction on this page, head over to our [Getting Started](https://extensions.rancher.io/extensions/next/extensions-getting-started) guide to learn more.
