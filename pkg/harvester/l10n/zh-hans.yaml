@@ -1,0 +1,16 @@
+harvester:
+  dashboard:
+    label: Dashboard
+    header: "Harvester 集群: {cluster}"
+    hardwareResourceGauge:
+      cpu: CPU
+      memory: 内存
+      storage: 存储
+      allocated: 已分配
+    sections:
+      events:
+        label: 事件
+      vmMetrics:
+        label: 虚拟机指标
+
+    version: 版本
