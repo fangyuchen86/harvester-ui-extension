@@ -1,0 +1,2 @@
+(("undefined"!==typeof self?self:this)["webpackChunkharvester_1_5_1_rc1"]=("undefined"!==typeof self?self:this)["webpackChunkharvester_1_5_1_rc1"]||[]).push([[970],{5970:function(e){const s=[{harvester:{dashboard:{label:"Dashboard",header:"Harvester 集群: {cluster}",hardwareResourceGauge:{cpu:"CPU",memory:"内存",storage:"存储",allocated:"已分配"},sections:{events:{label:"事件"},vmMetrics:{label:"虚拟机指标"}},version:"版本"}}}];e.exports=s.length<=1?s[0]:s}}]);
+//# sourceMappingURL=harvester-1.5.1-rc1.umd.min.970.js.map
