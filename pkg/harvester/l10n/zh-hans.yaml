@@ -19,7 +19,8 @@ nav:
     backupAndSnapshot: 备份和快照
     Monitoring: 监控
     Logging: 日志
-    'Monitoring and Logging': 监控和日志
+    'Monitoring and Logging':  监控和日志
+    'Monitoring & Logging': 监控和日志
 
 resourceTable:
   groupBy:
@@ -253,7 +254,7 @@ harvester:
     volumeSnapshotCounts: 快照计数
     networkState: 网络状态
     totalSnapshotQuota: 快照总配额
-    storageClass: 存储类
+    storageClass: storageClass
     restore: 还原
   tab:
     volume: 卷
@@ -1197,7 +1198,7 @@ harvester:
     label: 存储
     useDefault: 使用默认存储
     volumeEncryption: 卷加密
-    secret: 密钥
+    secret: 秘钥
     migratable:
       label: 可迁移
     numberOfReplicas:
@@ -1439,7 +1440,7 @@ harvester:
       label: 健康检查
 
   secret:
-    label: 密钥
+    label: 秘钥
 
   sriov:
     label: SR-IOV 网络设备
