@@ -254,7 +254,7 @@ harvester:
     volumeSnapshotCounts: 快照计数
     networkState: 网络状态
     totalSnapshotQuota: 快照总配额
-    storageClass: storageClass
+    storageClass: StorageClass
     restore: 还原
   tab:
     volume: 卷
@@ -289,7 +289,7 @@ harvester:
     ipv4Address: IPv4 地址
     filterLabels: 过滤标签
     filterSchedule: 过滤计划
-    storageClass: 存储类
+    storageClass: StorageClass
     dockerImage: Docker 镜像
   pci:
     available: 可用设备
@@ -1210,7 +1210,7 @@ harvester:
     diskSelector:
       label: 磁盘选择器
     storageClass:
-      label: 存储类
+      label: StorageClass
       longhorn:
         v1:
           label: Longhorn V1 (CSI)
@@ -1219,7 +1219,7 @@ harvester:
         versionTooltip: 此节点已禁用 Longhorn V2。
       lvm:
         label: LVM
-    title: 存储类
+    title: StorageClass
     customize:
       volumeBindingMode:
         later: 创建使用 PersistentVolumeClaim 的虚拟机后，绑定并配置持久卷
@@ -1682,8 +1682,8 @@ typeLabel:
     }
   harvesterhci.io.storage: |-
     {count, plural,
-      one { 存储类 }
-      other { 存储类 }
+      one { StorageClass }
+      other { StorageClass }
     }
   devices.harvesterhci.io.pcidevice: |-
     {count, plural,
